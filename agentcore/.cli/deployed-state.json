@@ -1,0 +1,31 @@
+{
+  "targets": {
+    "default": {
+      "resources": {
+        "runtimes": {
+          "BrandonAgent": {
+            "runtimeId": "BrandonAgent_BrandonAgent-rgvR5PCvjE",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-2:650251696752:runtime/BrandonAgent_BrandonAgent-rgvR5PCvjE",
+            "roleArn": "arn:aws:iam::650251696752:role/AgentCore-BrandonAgent-de-ApplicationAgentBrandonAg-DAOKOhsJvChy"
+          },
+          "FERPA": {
+            "runtimeId": "BrandonAgent_FERPA-QvVvF0B1ca",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-2:650251696752:runtime/BrandonAgent_FERPA-QvVvF0B1ca",
+            "roleArn": "arn:aws:iam::650251696752:role/AgentCore-BrandonAgent-de-ApplicationAgentFERPARunt-qrqN696TpaBK"
+          },
+          "ComplianceTeam": {
+            "runtimeId": "BrandonAgent_ComplianceTeam-rlS3zcDqVY",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-2:650251696752:runtime/BrandonAgent_ComplianceTeam-rlS3zcDqVY",
+            "roleArn": "arn:aws:iam::650251696752:role/AgentCore-BrandonAgent-de-ApplicationAgentComplianc-eBvvCunSmRC6"
+          },
+          "StandardsPartner": {
+            "runtimeId": "BrandonAgent_StandardsPartner-LV0zm4FewP",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-2:650251696752:runtime/BrandonAgent_StandardsPartner-LV0zm4FewP",
+            "roleArn": "arn:aws:iam::650251696752:role/AgentCore-BrandonAgent-de-ApplicationAgentStandards-uK0YHOXyrAAG"
+          }
+        },
+        "stackName": "AgentCore-BrandonAgent-default"
+      }
+    }
+  }
+}

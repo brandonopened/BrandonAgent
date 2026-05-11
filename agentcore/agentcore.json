@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+  "name": "BrandonAgent",
+  "version": 1,
+  "managedBy": "CDK",
+  "tags": {
+    "agentcore:created-by": "agentcore-cli",
+    "agentcore:project-name": "BrandonAgent"
+  },
+  "runtimes": [
+    {
+      "name": "BrandonAgent",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/BrandonAgent/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    },
+    {
+      "name": "StandardsPartner",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/StandardsPartner/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    },
+    {
+      "name": "Kap",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/Kap/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    },
+    {
+      "name": "FERPA",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/FERPA/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    },
+    {
+      "name": "ComplianceTeam",
+      "build": "CodeZip",
+      "entrypoint": "main.py",
+      "codeLocation": "app/ComplianceTeam/",
+      "runtimeVersion": "PYTHON_3_14",
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    }
+  ],
+  "memories": [],
+  "credentials": [],
+  "evaluators": [],
+  "onlineEvalConfigs": [],
+  "agentCoreGateways": [],
+  "policyEngines": []
+}

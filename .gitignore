@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# CDK
+cdk.out/
+
+# Caches
+.cache/
+.parcel-cache/
+
+# Logs
+*.log
+
+# Editor / tooling
+.idea/
+.vscode/
